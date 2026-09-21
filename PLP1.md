@@ -179,7 +179,6 @@ Place a documentation comment immediately before the item it describes:
 /// Display the greeting.
 
 /**
- * Creates a greeting for [name].
  * Display the greeting.
  * Display the greeting.
  */
