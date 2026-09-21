@@ -131,11 +131,59 @@ Source: [Dart Run — Dart Documentation](https://dart.dev/tools/dart-run)
 
 ## 4. Comments in Dart
 
+Comments explain what the code does without changing how the program runs. Dart supports single-line comments, multi-line comments, and documentation comments.
+
 ### Single-Line Comments
+
+A single-line comment starts with `//`. Everything after `//` on that line is treated as a comment.
+
+```dart
+void main() {
+  // Display the greeting.
+  print('hello world');
+}
+```
+
+A comment can also appear after a statement:
+
+```dart
+void main() {
+  print('hello world'); // Display the greeting.
+}
+```
 
 ### Multi-Line Comments
 
+A multi-line comment starts with `/*` and ends with `*/`. It can be used for explanations that take more than one line.
+
+```dart
+/*
+Display the greeting.
+*/
+void main() {
+  print('hello world');
+}
+```
+
+Dart also allows multi-line comments to be nested inside other multi-line comments.
+
 ### Documentation Comments
+
+Documentation comments describe functions, classes, and other parts of a program. They start with `///` or use the block form `/** ... */`.
+
+Place a documentation comment immediately before the item it describes:
+
+```dart
+/// Display the greeting.
+void main() {
+  print('hello world');
+}
+```
+
+Tools such as `dart doc` can use documentation comments to generate API documentation. These comments help other programmers understand how to use the code.
+
+Source: [Comments — Dart Documentation](https://dart.dev/language/comments)
+
 
 
 
