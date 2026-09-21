@@ -42,7 +42,9 @@ When I start programming in Dart, I will use the tutorial on the official Dart w
 
 ### Installing the Dart SDK
 
-To write and run Dart programs, I installed the Dart SDK on Windows. The SDK includes the libraries and command-line tools needed to develop Dart programs.
+The SDK includes the libraries and command-line tools needed to develop Dart programs. The official Dart website lists several installation methods, including downloading the SDK as a ZIP file. I used the ZIP method on Windows. The steps below describe the installation process I followed on my computer.
+
+Official installation information: [Get the Dart SDK](https://dart.dev/get-dart)
 
 Follow these steps to install it:
 
@@ -68,8 +70,6 @@ My installation reported Dart SDK version **3.13.4 (stable)**. Your version may 
 
 If the terminal says that `dart` is not recognized, check that the Path entry points to the folder containing `dart.exe`, then close and reopen the terminal.
 
-Source: [Get the Dart SDK](https://dart.dev/get-dart)
-
 ### Choosing and Setting Up Visual Studio Code
 
 The official Dart website presents DartPad as an easy way to learn Dart syntax and experiment with the language without downloading any software. DartPad runs directly in a web browser. Dart also supports development in editors such as Visual Studio Code.
@@ -89,7 +89,6 @@ To set up VS Code for Dart:
 The Dart extension adds support for working with Dart code in the editor. To run programs locally, install the Dart SDK as described in the previous section.
 
 Source: [Visual Studio Code — Dart Documentation](https://dart.dev/tools/vs-code)
-
 
 
 ## 3. Running a Dart Program
