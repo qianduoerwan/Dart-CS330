@@ -72,11 +72,13 @@ Source: [Get the Dart SDK](https://dart.dev/get-dart)
 
 ### Choosing and Setting Up Visual Studio Code
 
-Dart does not require one specific programming environment. Its official documentation provides setup instructions for Visual Studio Code with the Dart extension.
+The official Dart website presents DartPad as an easy way to learn Dart syntax and experiment with the language without downloading any software. DartPad runs directly in a web browser. Dart also supports development in editors such as Visual Studio Code.
 
-I chose Visual Studio Code because I can edit my code and run commands in its built-in terminal. The Dart extension adds language support, such as syntax highlighting.
+Sources: [Dart Development Tools](https://dart.dev/tools), [DartPad](https://dart.dev/tools/dartpad)
 
-To set it up:
+I chose Visual Studio Code because it was already installed on my computer, and I was relatively familiar with it. I also knew that VS Code supports Dart through an extension, so it was a convenient choice for me.
+
+To set up VS Code for Dart:
 
 1. Download and install [Visual Studio Code](https://code.visualstudio.com/) if it is not already installed.
 2. Open VS Code and press **Ctrl + Shift + X** to open the Extensions panel.
@@ -84,7 +86,7 @@ To set it up:
 4. Select **File → Open Folder** and open the folder where you want to save your Dart programs.
 5. Select **Terminal → New Terminal** to open a terminal inside VS Code.
 
-The Dart extension supports writing code in the editor, while the Dart SDK provides the tools that run the program. Both are needed for the setup described here.
+The Dart extension adds support for working with Dart code in the editor. To run programs locally, install the Dart SDK as described in the previous section.
 
 Source: [Visual Studio Code — Dart Documentation](https://dart.dev/tools/vs-code)
 
