@@ -190,7 +190,28 @@ void main() {
 
 Source: [Comments — Dart Documentation](https://dart.dev/language/comments)
 
-
-
-
 ## 5. Resources
+
+### References and Tools
+
+1. [Dart — Wikipedia](https://en.wikipedia.org/wiki/Dart_%28programming_language%29)
+2. [Dart: A Language for Structured Web Programming — Lars Bak, Google Developers Blog](https://developers.googleblog.com/dart-a-language-for-structured-web-programming/)
+3. [Dart Overview](https://dart.dev/overview)
+4. [Google Pay — Flutter Case Study](https://flutter.dev/showcase/google-pay)
+5. [BMW — Flutter Case Study](https://flutter.dev/showcase/bmw)
+6. [Get the Dart SDK](https://dart.dev/get-dart)
+7. [Dart SDK Archive](https://dart.dev/get-dart/archive)
+8. [Dart Development Tools](https://dart.dev/tools)
+9. [DartPad — Dart Documentation](https://dart.dev/tools/dartpad)
+10. [Visual Studio Code — Official Website](https://code.visualstudio.com/)
+11. [Visual Studio Code — Dart Documentation](https://dart.dev/tools/vs-code)
+12. [Dart Run — Dart Documentation](https://dart.dev/tools/dart-run)
+13. [Comments — Dart Documentation](https://dart.dev/language/comments)
+
+### Learning Resources
+
+I plan to use the following resources to learn Dart and find coding examples:
+
+1. [Dart’s Official Tutorial](https://dart.dev/learn/tutorial)
+2. [GeeksforGeeks Dart Tutorial](https://www.geeksforgeeks.org/dart/dart-tutorial/)
+3. [YouTube Tutorial Playlist](https://www.youtube.com/playlist?list=PLptHs0ZDJKt_fLp8ImPQVc1obUJKDSQL7)
