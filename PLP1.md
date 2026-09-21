@@ -22,6 +22,12 @@ Examples of applications developed using Dart with the Flutter framework include
 
 Sources: [Google Pay — Flutter Case Study](https://flutter.dev/showcase/google-pay), [BMW — Flutter Case Study](https://flutter.dev/showcase/bmw)
 
+### What Is Flutter, and How Is It Related to Dart?
+
+Flutter is a framework for building mobile, web, and desktop applications using Dart. Dart is the programming language used to write application code, while Flutter provides tools and widgets for creating the user interface, such as buttons, text fields, and screens.
+
+Source: [Dart Overview](https://dart.dev/overview)
+
 ### Where Will I Learn Dart?
 
 When I start programming in Dart, I will use the tutorial on the official Dart website, the Dart tutorial on GeeksforGeeks, and a YouTube tutorial playlist to learn the basics and find coding examples.
