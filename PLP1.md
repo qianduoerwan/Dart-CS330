@@ -40,8 +40,55 @@ When I start programming in Dart, I will use the tutorial on the official Dart w
 
 ### Installing the Dart SDK
 
+To write and run Dart programs, I installed the Dart SDK on Windows. The SDK includes the libraries and command-line tools needed to develop Dart programs.
+
+Follow these steps to install it:
+
+1. Open the [Dart SDK download page](https://dart.dev/get-dart/archive).
+2. Select the stable release, choose Windows, and select the architecture that matches your computer. I used x64.
+3. Download and extract the ZIP file.
+4. Find the `bin` folder inside the extracted `dart-sdk` folder. On my computer, the path is:
+
+   ```text
+   S:\dartsdk-windows-x64-release\dart-sdk\bin
+   ```
+
+5. In Windows Search, search for **Edit environment variables for your account**.
+6. Under **User variables**, select **Path**, click **Edit**, and then click **New**.
+7. Add the path to your Dart SDK’s `bin` folder. Use your own path if you extracted the SDK somewhere else.
+8. Save the changes and restart any open terminals and VS Code.
+
+Adding the `bin` folder to Path allows Windows to find the `dart` command without requiring its full location.
+
+Open PowerShell or a terminal in VS Code and run:
+
+```powershell
+dart --version
+```
+
+My installation reported Dart SDK version **3.13.4 (stable)**. Your version may be different.
+
+If the terminal says that `dart` is not recognized, check that the Path entry points to the folder containing `dart.exe`, then close and reopen the terminal.
+
+Source: [Get the Dart SDK](https://dart.dev/get-dart)
+
 ### Choosing and Setting Up Visual Studio Code
 
+Dart does not require one specific programming environment. Its official documentation provides setup instructions for Visual Studio Code with the Dart extension.
+
+I chose Visual Studio Code because I can edit my code and run commands in its built-in terminal. The Dart extension adds language support, such as syntax highlighting.
+
+To set it up:
+
+1. Download and install [Visual Studio Code](https://code.visualstudio.com/) if it is not already installed.
+2. Open VS Code and press **Ctrl + Shift + X** to open the Extensions panel.
+3. Search for **Dart** and install the extension published by **Dart Code**.
+4. Select **File → Open Folder** and open the folder where you want to save your Dart programs.
+5. Select **Terminal → New Terminal** to open a terminal inside VS Code.
+
+The Dart extension supports writing code in the editor, while the Dart SDK provides the tools that run the program. Both are needed for the setup described here.
+
+Source: [Visual Studio Code — Dart Documentation](https://dart.dev/tools/vs-code)
 ## 3. Running a Dart Program
 
 ### Hello World Example
