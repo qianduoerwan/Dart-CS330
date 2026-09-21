@@ -180,8 +180,6 @@ void main() {
 }
 ```
 
-Tools such as `dart doc` can use documentation comments to generate API documentation. These comments help other programmers understand how to use the code.
-
 Source: [Comments — Dart Documentation](https://dart.dev/language/comments)
 
 
