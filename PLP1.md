@@ -49,11 +49,7 @@ Follow these steps to install it:
 1. Open the [Dart SDK download page](https://dart.dev/get-dart/archive).
 2. Select the stable release, choose Windows, and select the architecture that matches your computer. I used x64.
 3. Download and extract the ZIP file.
-4. Find the `bin` folder inside the extracted `dart-sdk` folder. On my computer, the path is:
-
-   ```text
-   S:\dartsdk-windows-x64-release\dart-sdk\bin
-   ```
+4. Find the `bin` folder inside the extracted `dart-sdk` folder. On my computer, the path is: `S:\dartsdk-windows-x64-release\dart-sdk\bin`
 
 5. In Windows Search, search for **Edit environment variables for your account**.
 6. Under **User variables**, select **Path**, click **Edit**, and then click **New**.
