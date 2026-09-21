@@ -95,7 +95,37 @@ Source: [Visual Studio Code — Dart Documentation](https://dart.dev/tools/vs-co
 
 ### Hello World Example
 
+In VS Code, open your project folder and create a file named `main.dart`. Add the following code and save the file:
+
+```dart
+void main() {
+  print('hello world');
+}
+```
+
+The `main()` function is where the program starts. The `void` keyword means that the function does not return a value. The `print()` function displays the message in the terminal.
+
 ### How to Run the Program
+
+Open **Terminal → New Terminal** in VS Code. Make sure the terminal is in the folder containing `main.dart`.
+
+On my computer, the terminal prompt looks like this: `PS S:\CS 330\PLP>`
+
+This prompt shows that the terminal is already in my project folder. You do not need to type the prompt yourself.
+
+Run the program with:
+
+```powershell
+dart run main.dart
+```
+
+The `dart run` command runs the Dart file you specify. This example does not require any additional packages.
+
+The expected output is: `hello world`
+
+After changing the code, save the file and run the same command again to see the updated output.
+
+Source: [Dart Run — Dart Documentation](https://dart.dev/tools/dart-run)
 
 
 
