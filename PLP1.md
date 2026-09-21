@@ -175,6 +175,15 @@ Place a documentation comment immediately before the item it describes:
 
 ```dart
 /// Display the greeting.
+/// Display the greeting.
+/// Display the greeting.
+
+/**
+ * Creates a greeting for [name].
+ * Display the greeting.
+ * Display the greeting.
+ */
+
 void main() {
   print('hello world');
 }
