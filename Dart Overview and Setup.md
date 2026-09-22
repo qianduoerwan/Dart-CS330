@@ -1,4 +1,4 @@
-# PLP 1: Getting Started with Dart
+# Dart Overview and Setup
 
 ## 1. History and Background
 
