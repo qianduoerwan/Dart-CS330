@@ -8,7 +8,7 @@ This guide is being developed as part of my CS 330 Programming Languages project
 
 ## Tutorial Chapters
 
-1. [Dart Overview and Setup](getting-started-with-dart.md)
+1. [Dart Overview and Setup]([getting-started-with-dart.md](https://github.com/qianduoerwan/Dart-CS330/blob/main/PLP1.md))
 2. Data Types and Syntax
 3. Control Flow
 4. Naming, Scope, and Bindings
