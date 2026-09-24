@@ -142,7 +142,7 @@ A single-line comment starts with `//`. Everything after `//` on that line is tr
 ```dart
 void main() {
   // Display the greeting.
-  print('hello world');
+  print('Hello, world!');
 }
 ```
 
@@ -150,7 +150,7 @@ A comment can also appear after a statement:
 
 ```dart
 void main() {
-  print('hello world'); // Display the greeting.
+  print('Hello, world!'); // Display the greeting.
 }
 ```
 
@@ -163,7 +163,7 @@ A multi-line comment starts with `/*` and ends with `*/`. It can be used for exp
 Display the greeting.
 */
 void main() {
-  print('hello world');
+  print('Hello, world!');
 }
 ```
 
@@ -186,7 +186,7 @@ Place a documentation comment immediately before the item it describes:
  */
 
 void main() {
-  print('hello world');
+  print('Hello, world!');
 }
 ```
 
