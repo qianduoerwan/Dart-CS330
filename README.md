@@ -16,7 +16,7 @@ For my final project, I am thinking about building a simple pet-tracking app pro
 
 ## Tutorial Chapters
 
-1. [Dart Overview and Setup](Dart_Overview_and_Setup.md)
+1. [Dart Overview and Setup](Dart%20Overview%20and%20Setup.md)
 2. Data Types and Syntax
 3. Control Flow
 4. Naming, Scope, and Bindings
