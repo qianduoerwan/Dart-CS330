@@ -101,7 +101,7 @@ In VS Code, open your project folder and create a file named `main.dart`. Add th
 
 ```dart
 void main() {
-  print('hello world');
+  print('Hello, world!');
 }
 ```
 
